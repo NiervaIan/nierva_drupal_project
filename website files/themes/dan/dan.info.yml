@@ -1,0 +1,28 @@
+name: Day and night
+type: theme
+description: 'A reponsive dark theme.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: stable
+logo: logo.png
+
+libraries:
+  - dan/global-styles
+
+regions:
+  top_first: 'Top First'
+  top_second: 'Top Second'
+  logo: 'Logo'
+  navigation: 'Navigation'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+  bottom_first: 'Bottom First'
+  bottom_second: 'Bottom Second'
+
+# Information added by Drupal.org packaging script on 2020-05-29
+version: '8.x-1.0-alpha2'
+project: 'dan'
+datestamp: 1590753908

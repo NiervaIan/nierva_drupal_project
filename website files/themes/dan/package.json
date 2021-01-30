@@ -1,0 +1,20 @@
+{
+  "name": "dan",
+  "version": "1.0.0",
+  "description": "A reponsive dark theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.drupal.org:project/dan.git"
+  },
+  "author": "@ipwa",
+  "devDependencies": {
+    "compass-mixins": "^0.12.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

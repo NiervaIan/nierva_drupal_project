@@ -1,0 +1,31 @@
+// Legacy IE support
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie8: true;
+
+// Font faces, stacks and sizes.
+$base-font-size:   16px; // The font size set on the root html element.
+$base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
+
+$h1-font-size: 1.5  * $base-font-size;
+$h2-font-size: 1.1  * $base-font-size;
+$h3-font-size: 1.0  * $base-font-size;
+$h4-font-size: 0.9  * $base-font-size;
+$h5-font-size: 0.8 * $base-font-size;
+$h6-font-size: 0.7 * $base-font-size;
+
+// Fonts
+$source-code: "Source Sans Pro", sans-serif;;
+$courier: Courier, "Courier New";
+
+// Now create some variables for the font stacks we want to use on this site.
+$base-font-family: $source-code; // The font family set on the html element.
+$font-body:        $source-code;
+$font-monospace:   $courier;
+
+// Tab styling.
+$tabs-container-bg: $dark-blue;
+$tabs-border: $blue;
+
+// The amount lists, blockquotes and comments are indented.
+$indent-amount: 2em;
